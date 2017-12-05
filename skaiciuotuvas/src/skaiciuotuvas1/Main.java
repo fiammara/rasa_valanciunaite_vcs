@@ -16,8 +16,7 @@ public class Main {
 		System.out.println("Dauginti: 4");
 		System.out.println("Traukti ğakná 5:");
 		System.out.println("Kelti kvadratu 6:");
-		
-		
+			
 		int number = reader.nextInt();
 		if (number == 1) {
 			sum();
@@ -25,19 +24,23 @@ public class Main {
 		if (number == 2) {
 			subst();
 		}
-		if (number == 3) {
+		else if (number == 3) {
 			div();
 		}
-		if (number == 4) {
+		else if (number == 4) {
 			mult();
 		}
-		if (number == 5) {
+		else 	if (number == 5) {
 			root();
 		}
-		if (number == 6) {
+		else	if (number == 6) {
 			pow();
+		
 		}
-		reader.close();
+		else	 {
+			System.out.println("error");}
+		
+		}
 	}
 
 	private static double pow() {
