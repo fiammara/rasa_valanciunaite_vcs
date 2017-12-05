@@ -17,23 +17,23 @@ public class Main {
 		
 		
 			
-		int number = reader.nextInt();
-		if (number == 1) {
+		String number = reader.nextLine();
+		if (number.equals("1")) {
 			sum();
 		}
-		if (number == 2) {
+		else if (number.equals("2")) {
 			subst();
 		}
-		else if (number == 3) {
+		else if (number.equals("3")) {
 			div();
 		}
-		else if (number == 4) {
+		else if (number.equals("4")) {
 			mult();
 		}
-		else 	if (number == 5) {
+		else 	if (number.equals("5")) {
 			root();
 		}
-		else	if (number == 6) {
+		else	if (number.equals("6")) {
 			pow();
 		
 		}
