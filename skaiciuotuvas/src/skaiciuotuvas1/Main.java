@@ -24,8 +24,15 @@ if (number==6){pow();}
 reader.close();
 	}
 
-	private static void pow() {
+	private static int pow() {
 		// TODO Auto-generated method stub
+		Scanner in = new Scanner(System.in);
+        System.out.println("Enter  integer value: ");
+        int first = in.nextInt();
+        System.out.println("Enter degree: ");
+        int second = in.nextInt();
+        int pow = Math.pow(first, second);
+        return pow;
 		
 	}
 
