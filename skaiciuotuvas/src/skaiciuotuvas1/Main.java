@@ -14,8 +14,6 @@ public class Main {
 		System.out.println("Kelti kvadratu 6:");
 		
 		Scanner reader = new Scanner(System.in);
-		
-		
 			
 		String number = reader.nextLine();
 		if (number.equals("1")) {
@@ -63,7 +61,7 @@ public class Main {
 		System.out.println("Enter  integer value: ");
 		int first = in.nextInt();
 		double sqroot = Math.sqrt(first);
-		System.out.println("result=" +sqroot);
+		System.out.println("result is " +sqroot);
 		
 	}
 
@@ -75,7 +73,7 @@ public class Main {
 		System.out.println("Enter your second integer value: ");
 		int second = in.nextInt();
 		int mult = first * second;
-		System.out.println("result=" +mult);
+		System.out.println("result is " +mult);
 	}
 
 	private static void div() {
@@ -86,8 +84,7 @@ public class Main {
 		System.out.println("Enter your second integer value: ");
 		double second = in.nextDouble();
 		double div = first / second;
-		System.out.println("result=" +div);
-
+		System.out.println("result is " +div);
 	}
 
 	private static void substract() {
@@ -98,8 +95,7 @@ public class Main {
 		System.out.println("Enter your second integer value: ");
 		int second = in.nextInt();
 		int sub = first - second;
-		System.out.println("result=" +sub);
-
+		System.out.println("result is " +sub);
 	}
 
 	private static void sum() {
@@ -109,7 +105,7 @@ public class Main {
 		System.out.println("Enter your second integer value: ");
 		int second = in.nextInt();
 		int sum = first + second;
-		System.out.println( "result=" +sum);
+		System.out.println( "result is " +sum);
 
 	}
 }
