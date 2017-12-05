@@ -45,7 +45,7 @@ public class Main {
 		}
 	
 
-	private static double pow() {
+	private static void pow() {
 	
 		Scanner in = new Scanner(System.in);
 		System.out.println("Enter  integer value: ");
@@ -53,21 +53,21 @@ public class Main {
 		System.out.println("Enter degree: ");
 		double second = in.nextDouble();
 		double pow = Math.pow(first, second);
-		return pow;
+		System.out.println("result=" +pow);
 
 	}
 
-	private static double root() {
+	private static void root() {
 		
 		Scanner in = new Scanner(System.in);
 		System.out.println("Enter  integer value: ");
 		int first = in.nextInt();
 		double root = Math.sqrt(first);
-		return root;
+		System.out.println("result=" +root);
 		
 	}
 
-	private static int mult() {
+	private static void mult() {
 	
 		Scanner in = new Scanner(System.in);
 		System.out.println("Enter your first integer value: ");
@@ -75,10 +75,10 @@ public class Main {
 		System.out.println("Enter your second integer value: ");
 		int second = in.nextInt();
 		int mult = first * second;
-		return mult;
+		System.out.println("result=" +mult);
 	}
 
-	private static double div() {
+	private static void div() {
 		
 		Scanner in = new Scanner(System.in);
 		System.out.println("Enter your first integer value: ");
@@ -86,7 +86,7 @@ public class Main {
 		System.out.println("Enter your second integer value: ");
 		int second = in.nextInt();
 		int div = first / second;
-		return div;
+		System.out.println("result=" +div);
 
 	}
 
