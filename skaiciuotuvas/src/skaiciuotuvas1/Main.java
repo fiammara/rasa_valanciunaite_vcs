@@ -36,9 +36,14 @@ reader.close();
 		
 	}
 
-	private static void root() {
+	private static double root() {
 		// TODO Auto-generated method stub
-		
+		Scanner in = new Scanner(System.in);
+        System.out.println("Enter  integer value: ");
+        int first = in.nextInt();
+       
+       double root = Math.sqrt(first);
+        return root;
 	}
 
 	private static void mult() {
