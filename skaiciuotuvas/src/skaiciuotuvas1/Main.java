@@ -10,7 +10,7 @@ public class Main {
 		System.out.println("Atimti: 2");
 		System.out.println("Dalinti: 3");
 		System.out.println("Dauginti: 4");
-		System.out.println("Traukti ðakná 5:");
+		System.out.println("Traukti sakni 5:");
 		System.out.println("Kelti kvadratu 6:");
 		
 		Scanner reader = new Scanner(System.in);
@@ -38,7 +38,7 @@ public class Main {
 		
 		}
 		else	 {
-			System.out.println("error");
+			System.out.println("Ivestas netinkamas simbolis");
 			
 			}
 		
