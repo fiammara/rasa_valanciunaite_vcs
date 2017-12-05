@@ -5,10 +5,6 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Scanner reader = new Scanner(System.in);
-		while(true) {
-		
 		System.out.println("Pasirinkite norimà veiksmà (áraðykite skaièiø:");
 		System.out.println("Sumuoti: 1");
 		System.out.println("Atimti: 2");
@@ -16,6 +12,10 @@ public class Main {
 		System.out.println("Dauginti: 4");
 		System.out.println("Traukti ðakná 5:");
 		System.out.println("Kelti kvadratu 6:");
+		
+		Scanner reader = new Scanner(System.in);
+		while(true) {
+		
 			
 		int number = reader.nextInt();
 		if (number == 1) {
@@ -38,7 +38,9 @@ public class Main {
 		
 		}
 		else	 {
-			System.out.println("error");}
+			System.out.println("error");
+			break;
+			}
 		
 		}
 	}
