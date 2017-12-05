@@ -7,13 +7,17 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner reader = new Scanner(System.in);
-		System.out.println("Pasirinkite norimà veiksmà:");
-		System.out.println("Sumuoti 1:");
-		System.out.println("Atimti 2:");
-		System.out.println("Dalinti 3:");
-		System.out.println("Dauginti 4:");
+		while(true) {
+		
+		System.out.println("Pasirinkite norimà veiksmà (áraðykite skaièiø:");
+		System.out.println("Sumuoti: 1");
+		System.out.println("Atimti: 2");
+		System.out.println("Dalinti: 3");
+		System.out.println("Dauginti: 4");
 		System.out.println("Traukti ðakná 5:");
 		System.out.println("Kelti kvadratu 6:");
+		
+		
 		int number = reader.nextInt();
 		if (number == 1) {
 			sum();
@@ -49,16 +53,17 @@ public class Main {
 	}
 
 	private static double root() {
-		// TODO Auto-generated method stub
+		
 		Scanner in = new Scanner(System.in);
 		System.out.println("Enter  integer value: ");
 		int first = in.nextInt();
 		double root = Math.sqrt(first);
 		return root;
+		
 	}
 
 	private static int mult() {
-		// TODO Auto-generated method stub
+	
 		Scanner in = new Scanner(System.in);
 		System.out.println("Enter your first integer value: ");
 		int first = in.nextInt();
@@ -69,7 +74,7 @@ public class Main {
 	}
 
 	private static double div() {
-		// TODO Auto-generated method stub
+		
 		Scanner in = new Scanner(System.in);
 		System.out.println("Enter your first integer value: ");
 		int first = in.nextInt();
