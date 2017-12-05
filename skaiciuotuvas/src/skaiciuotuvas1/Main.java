@@ -7,6 +7,7 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner reader = new Scanner(System.in);
+		System.out.println("Pasirinkite norimà veiksmà:");
 		System.out.println("Sumuoti 1:");
 		System.out.println("Atimti 2:");
 		System.out.println("Dalinti 3:");
@@ -52,7 +53,6 @@ public class Main {
 		Scanner in = new Scanner(System.in);
 		System.out.println("Enter  integer value: ");
 		int first = in.nextInt();
-
 		double root = Math.sqrt(first);
 		return root;
 	}
